@@ -7,7 +7,7 @@ Inception is a Docker-based infrastructure project that sets up a complete WordP
 **System Architecture**
 The following diagram illustrates the dedicated Docker network, highlighting how traffic is routed from the host network through the NGINX web server to the WordPress application and MariaDB database.
 
-![Infrastructure Diagram](./Images/Infrastructure Diagram.jpg")
+![Infrastructure Diagram](Images/Infrastructure%20Diagram.jpg)
 
 The infrastructure comprises:
 - **NGINX**: Reverse proxy and web server with TLS/SSL encryption
