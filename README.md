@@ -4,6 +4,11 @@
 
 Inception is a Docker-based infrastructure project that sets up a complete WordPress environment with NGINX, MariaDB, and PHP-FPM running in isolated containers. This project teaches system administration concepts including containerization, networking, persistence, and infrastructure-as-code principles.
 
+**System Architecture**
+The following diagram illustrates the dedicated Docker network, highlighting how traffic is routed from the host network through the NGINX web server to the WordPress application and MariaDB database.
+
+![Infrastructure Diagram](./Images/Infrastructure Diagram.jpg")
+
 The infrastructure comprises:
 - **NGINX**: Reverse proxy and web server with TLS/SSL encryption
 - **WordPress + PHP-FPM**: Application server for WordPress content management
